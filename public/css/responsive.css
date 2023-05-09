@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@media (min-width: 1901px) {}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1500px) {}
+
+@media (max-width: 1300px) {}
+
+@media (min-width: 1199px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {}
+
+@media only screen and (max-width:1024px) and (min-width: 778px) {}
+
+/* Navigation breakpoint start */
+@media (max-width: 991px) {}
+
+/* Navigation breakpoint end */
+
+@media (max-width: 991px) {}
+
+@media only screen and (max-width: 991px) and (orientation: landscape) {}
+
+@media only screen and (max-width: 991px) and (min-width: 767px) and (orientation: landscape) {}
+
+
+@media (max-width: 830px) {
+    .float-logo {
+        top: 27%;
+    }
+
+    .float-logo img {
+        width: 360px;
+    }
+
+
+    .float-coming {
+        right: 23%;
+    }
+
+    ul.unstyled-inline li:first-child {
+        padding-left: 15px;
+    }
+
+    ul.unstyled-inline li {
+        display: block;
+        border-right: 0px;
+    }
+
+
+
+}
+
+@media (min-width: 767px) and (max-width:830px) {
+    .lib-list .highlight {
+        font-size: 8px;
+    }
+
+    .lib-list .label-name {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 480px) {
+
+    .w-40 {
+        width: auto;
+    }
+
+    .float-logo {
+        top: 420px;
+    }
+
+    .float-logo img {
+        width: 210px;
+    }
+
+    .float-coming {
+        right: 0%;
+        width: 106px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .float-logo {
+        top: 485px;
+    }
+}
+
+@media (max-height: 600px) {}
